@@ -1,3 +1,3 @@
-# my-project-django-framework-udemy
+# enquetehashtag
 
-This is a repository in python django to implement a personal finance control project.
+Esse é um respositório de um aplicativo padrão django-python. 
