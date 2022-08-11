@@ -1,2 +1,3 @@
 # mySiteDjango
-Este é um repositório em python Django, para implementar um projeto de controle de finanças pessoais.
+Este é um repositório em python Django com uma implementação de enquete. 
+
