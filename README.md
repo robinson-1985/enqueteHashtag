@@ -1,3 +1,4 @@
 # mySiteDjango
-Este é um repositório em python Django com uma implementação de enquete. 
+
+-- Esse é um projeto Django que segue a documentação oficial do Framework. 
 
