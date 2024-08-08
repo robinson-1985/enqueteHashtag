@@ -1,7 +1,6 @@
-#from django.shortcuts import render
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
-#Tentativa de acessar o site
-def index(request):
-    return HttpResponse("Olá esse é o meu primeiro site!")
+def results(request, question_id):
+    # Sua lógica de visualização aqui
+    return render(request, 'polls/results.html', {'question_id': question_id})
