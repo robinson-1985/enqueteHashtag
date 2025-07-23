@@ -1,6 +1,9 @@
-from django.shortcuts import render
+from django.http import HttpResponse
+
+
+def index(request):
+    return HttpResponse("Seja bem vindo à enquete")
 
 
 def results(request, question_id):
-    # Sua lógica de visualização aqui
-    return render(request, 'polls/results.html', {'question_id': question_id})
+    return HttpResponse(f"Você está vendo os resultados da pergunta {question_id}")
